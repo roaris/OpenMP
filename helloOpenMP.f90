@@ -1,4 +1,5 @@
 ! コンパイル: gfortran -fopenmp helloOpenMP.f90
+! omp_get_thread_num()関数を使うと、同時に動いているプロセッサのうちで何番目に当たるかを知ることができる
 program helloOpenMP
 implicit none
 integer omp_get_thread_num
