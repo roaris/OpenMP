@@ -11,7 +11,7 @@ end do
 total = t
 end
 
-program badTotal
+program correctTotal
 implicit none
 integer i
 double precision x(1000), total
@@ -19,4 +19,4 @@ do i = 1, 1000
     x(i) = i
 end do
 print *, total(x)
-end program badTotal
+end program correctTotal
